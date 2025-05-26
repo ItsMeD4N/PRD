@@ -1,7 +1,2 @@
-body {
-  margin: 0;
-  padding: 0;
-  background-color: #264073;
-  color: white;
-  font-family: Arial, sans-serif;
-}
+@import "tailwindcss";
+@plugin "daisyui";
