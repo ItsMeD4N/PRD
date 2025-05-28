@@ -1,4 +1,5 @@
 import React from "react";
+import Swap from "./Swap";
 
 const Navbar = () => {
   return (
@@ -24,26 +25,19 @@ const Navbar = () => {
           <ul
             tabIndex={0}
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
-          >
-            <li>
-              <a href="#">Item 1</a>
-            </li>
-            <li>
-              <a href="#">Item 3</a>
-            </li>
-          </ul>
+          ></ul>
         </div>
-        <a className="btn btn-ghost text-xl">LOST AND FOUND</a>
+        <Swap />
       </div>
 
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
-          <li>
-            <a href="#">Lapor Penemuan</a>
+          {/*           <li>
+            <a href="#">Lihat Laporan</a>
           </li>
           <li>
             <a href="#">Prosedur</a>
-          </li>
+          </li> */}
         </ul>
       </div>
 
